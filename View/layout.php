@@ -15,55 +15,28 @@
     </head>
     <body>
         <nav class="navbar navbar-dark bg-dark fixed-top navbar-expand-sm">
-            <a class="navbar-brand" href="/"><img src="<?= Config::getConfig("clientConfig")->company->logo; ?>" width="30" height="30" alt=""></a>
+            <a class="navbar-brand mr-5" href="/"><img src="/Img/logo.png" width="110" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="/Produits">Nos Produits</a>
+                    <li class="nav-item mr-5">
+                        <a class="nav-link" href="/Equipe">Équipe</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item mr-5">
+                        <a class="nav-link" href="/Fontionnalités">Fonctionnalités</a>
+                    </li>
+                    <li class="nav-item mr-5">
+                        <a class="nav-link" href="/Tutoriels">Tutoriels</a>
+                    </li>
+                    <li class="nav-item mr-5">
+                        <a class="nav-link" href="/Tarifs">Tarifs</a>
+                    </li>
+                    <li class="nav-item mr-5">
                         <a class="nav-link" href="/Contact">Contact</a>
                     </li>
-                </ul>
-                <ul class="navbar-nav mr-0">
-                    <?php if(!empty($profil)){ ?>
-                        <li class="nav-item">
-                            <i class="fas fa-shopping-cart nav-link cart-number dropdown-toggle"><span class="badge badge-pill badge-danger" id="cart-number"></span></span></i>
-                            <div class='dropdown-menu dropdown-menu-right nopadding mr-3' id="cart-content">
-                                <ul class="list-group">
-                                
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <i class="fas fa-user-alt nav-link dropdown-toggle" id="profil-nav-button" data-toggle='dropdown'></i>
-                            <div class='dropdown-menu dropdown-menu-right'>
-                                <a class='dropdown-item' href='/User/Profil'>Mon profil</a>
-                                <?php if ($profil->checkRole("Admin")){ ?>
-                                    <a class='dropdown-item' href='/Admin'>Administration</a>
-                                <?php } ?>
-                                <a class='dropdown-item cart-number' href='/Panier'>Mon panier<span class="badge badge-pill badge-danger"></span></a>
-                                <div class="dropdown-divider"></div>
-                                <a class='dropdown-item' href='/Logoff'>Deconnexion</a>
-                            </div>
-                        </li>
-                    <?php }else{ ?>
-                        <li class="nav-item">
-                            <i class="fas fa-shopping-cart nav-link cart-number dropdown-toggle"><span class="badge badge-pill badge-danger" id="cart-number"></span></span></i>
-                            <div class="dropdown-menu dropdown-menu-right nopadding mr-3" id="cart-content">
-                                <ul class="list-group">
-                                
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a id="profil-nav-button" class="fas fa-user-alt nav-link" href="/Login"><i class=""></i></a>
-                        </li>
-                    <?php } ?>
                 </ul>
             </div>
         </nav>
@@ -102,7 +75,7 @@
                 <?php } ?>
             <?php } ?>
             <footer>
-                Site créé par <a href="https://www.click-n-collect.site/" target="_blank">Click-n-collect.site</a>
+                
             </footer>
         </div>
         <div class="modal fade" id="alertModal">

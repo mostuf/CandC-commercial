@@ -3,7 +3,6 @@
     {
         public function Home()
         {
-            $this->addParam("clientConfig",Config::getConfig("clientConfig"));
             $this->view("home");
         }
 

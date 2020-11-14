@@ -117,14 +117,25 @@ h1{
 }
 
 .block-dark{
-    background: linear-gradient(#d32f2f, #e44F4F);
+    background: linear-gradient(#1565c0, #1976d2);
     color: white;
 }
 
 .block-light{
+    background-color:white;
+     color: rgb(36, 34, 34);
+}   
+.block hr {
     background-color: white;
+    width: 75%;
+    margin-top: 15px;
+    margin-bottom:15px;
 }
-
+.block.block-light hr {
+    background-color: rgb(36, 34, 34);
+   
+  
+}
 @media (max-width: 900px) {
     .block{
         width: 100%;

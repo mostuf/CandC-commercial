@@ -19,7 +19,7 @@
         "Component"
     ],
     "environnement": "dev",
-    "basePath": "https://www.click-n-collect.site",
+    "basePath": "http://dev.click-n-collect.fr",
     "bundle": [
         {
             "Name": "Common",
@@ -40,7 +40,7 @@
         "host": "localhost",
         "user": "root",
         "password": "",
-        "port": 3306
+        "port": 3308
     },
     "listComponent": [
         "Tag",

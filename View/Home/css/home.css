@@ -126,6 +126,15 @@
     width: 100%;
 }
 
+
+
+.block hr {
+    background-color: white;
+    width: 60%;
+    margin-top: 25px;
+    margin-bottom:25px;
+}
+
 @media screen and (max-width: 992px){
     .min-text{
         font-size: 28px;

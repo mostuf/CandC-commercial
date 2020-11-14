@@ -1,0 +1,134 @@
+.card-body{
+    padding: 0px;
+}
+
+.scroll-content{
+    padding: 0px;
+}
+
+.card-text{
+    display: block;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.card{
+    cursor: pointer;
+}
+
+.title{
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+    margin-top: 20%;
+}
+
+.profil{
+    padding: 15px;
+}
+
+.profil img{
+    width: 100%;
+}
+
+.min-text{
+    font-size: 18px;
+    text-align: justify;
+}
+
+.cours{
+    color: #FFFFFF;
+    min-height: 450px;
+    margin: 2%;
+    width:98%;
+    font-size:80%;
+    margin: 0 1% 0 1%;
+    border-radius: 10px;
+}
+
+.cours .title{
+    background-color: #1565c0;
+    width:100%;
+    font-size: 1.4rem;
+    padding: 15px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.cours .description{
+    background-color: #404040;
+    padding: 15px;
+}
+
+.cours .picture{
+    background-color: #FFFFFF;
+    padding: 15px;
+}
+
+.cours .picture img{
+    width: 100%;
+}
+
+.cours .number-detail{
+    text-align: right;
+    font-size: 14px;
+    background-color: #1565c0;
+    padding: 5px;
+}
+
+.coursCard{
+    padding: 0px 20px 0px 20px;
+}
+
+.cours .title{
+    text-align: center;
+    font-weight: bold;
+}
+
+.addCourses{
+    
+    text-align: center;
+}
+
+.addCourses .cours{
+    padding-top: 160px;
+    padding-bottom: 160px;
+    background-color: rgba(255,255,255,0.6);
+    font-size:90%;
+    
+}
+
+.addCourses .cours:hover{
+    background-color: rgba(255,255,255,0.8);
+    color: #404040;
+}
+
+.addCourses .fas.fa-plus{
+    font-size: 120px;
+}
+
+.coursPicture{
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 15px;
+}
+
+.cours .description{
+    padding: 15px;
+    text-align: justify;
+}
+
+.arthur img{
+    width: 100%;
+}
+
+@media screen and (max-width: 992px){
+    .min-text{
+        font-size: 28px;
+    }
+
+}

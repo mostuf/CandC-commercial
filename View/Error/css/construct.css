@@ -1,0 +1,41 @@
+.customMessage{
+    width: 100%;
+}
+
+.customMessage .icone img{
+    width: 100%;
+}
+
+.customMessage .arthur img{
+    width: 100%;
+}
+
+.customMessage .message{
+    font-size: 22px;
+    display: block;
+    padding: 20px;
+    border-radius: 50px;
+    border-bottom-left-radius: 0px;
+}
+
+.customMessage .message a{
+    color: white;
+    font-weight: 750;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.customMessage .message a:hover{
+    color: #DDDDDD;
+}
+
+.customMessage .alert-secondary{
+    display: block;
+    margin-top: 25px;
+}
+
+.customMessage .alert-secondary .title{
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}

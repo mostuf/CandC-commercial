@@ -1,0 +1,99 @@
+[
+    {
+        "Title":"Accueil",
+        "Path":"/",
+        "Method":"GET",
+        "Controller":"Home",
+        "Action":"Home",
+        "RouteParam":"",
+        "Param":"",
+        "Auth":"",
+        "container" : "fluid",
+        "Ajax": false,
+        "Manager": ""
+    },
+    {
+        "Title":"Accueil",
+        "Path":"/index.php",
+        "Method": "GET",
+        "redirect" : "/"
+    },
+    {
+        "Title":"Erreur",
+        "Path":"/Error",
+        "Method":"GET",
+        "Controller":"Error",
+        "Action":"Display",
+        "RouteParam":"",
+        "Param":"",
+        "Auth":"",
+        "container" : "fluid",
+        "Ajax": false,
+        "Manager":null
+    },
+    {
+        "Title":"Accueil administration",
+        "Path": "/CGU",
+        "Method":"GET",
+        "Controller":"Home",
+        "Action":"CGU",
+        "RouteParam":"",
+        "Param":"",
+        "Auth":"",
+        "container" : "",
+        "Ajax": false,
+        "Manager": ""
+    },
+    {
+        "Title":"Contact",
+        "Path": "/Contact/?(.*)",
+        "Method":"GET",
+        "Controller":"Contact",
+        "Action":"Contact",
+        "RouteParam":"type",
+        "Param":"",
+        "Auth":"",
+        "container" : "fluid",
+        "Ajax": false,
+        "Manager": "Contact"
+    },
+    {
+        "Title":"Contact",
+        "Path": "/Contact",
+        "Method":"POST",
+        "Controller":"Contact",
+        "Action":"Send",
+        "RouteParam":"",
+        "Param":"contact",
+        "Auth":"",
+        "container" : "fluid",
+        "Ajax": false,
+        "Manager": "Contact"
+    },
+    {
+        "Title":"Contact",
+        "Path": "/Comment/Add",
+        "Method":"POST",
+        "Controller":"Comment",
+        "Action":"Add",
+        "RouteParam":"",
+        "Param":"idUser;idAttachement;message;typeComment",
+        "Auth":"Member",
+        "container" : "",
+        "Ajax": true,
+        "Manager": "Comment"
+    },
+    {
+        "Title":"Maintenance",
+        "Path": "/Maintenance",
+        "Method":"GET",
+        "Controller":"Maintenance",
+        "Action":"Maintenance",
+        "RouteParam":"",
+        "Param":"",
+        "Auth":"",
+        "container" : "fluid",
+        "Ajax": false,
+        "Manager": ""
+    }
+]

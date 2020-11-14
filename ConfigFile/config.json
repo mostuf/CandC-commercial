@@ -1,0 +1,52 @@
+{
+    "maintenance": {
+        "isActivated": false,
+        "reason": {
+            "title": "Mise à jour du système de maintenance du site",
+            "startDate": "24/08/20 22:30",
+            "endDate": "24/08/20 23:00"
+        }
+    },
+    "listAutoloadFolder": [
+        "Controller",
+        "Model",
+        "Model/Class",
+        "Model/Manager",
+        "Model/Exception",
+        "Framework",
+        "Framework/Exception",
+        "Service",
+        "Component"
+    ],
+    "environnement": "dev",
+    "basePath": "https://www.click-n-collect.site",
+    "bundle": [
+        {
+            "Name": "Common",
+            "ListFile": [
+                "js/jquery.js",
+                "js/bootstrap.js",
+                "js/global.js",
+                "css/bootstrap.min.css",
+                "css/global.css",
+                "css/jquery-ui.css",
+                "js/jquery-ui.js"
+            ]
+        }
+    ],
+    "dbSource": {
+        "name": "click-n-collect",
+        "dbname": "CandC",
+        "host": "localhost",
+        "user": "root",
+        "password": "",
+        "port": 3306
+    },
+    "listComponent": [
+        "Tag",
+        "Pagination",
+        "BreadCrumb",
+        "Company",
+        "Contact"
+    ]
+}

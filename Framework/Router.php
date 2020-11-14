@@ -18,7 +18,6 @@
         public function findRoute($url,$basePath,$method = "GET")
         {
             $url = str_replace($basePath,"",$url);
-            dump($url);
             $resultRoute = array_filter($this->listRoute,function($route) use($url,$method){
                 return preg_match('#^' . $route->Path . '\/?$#', $url) && $route->Method == $method;
             });

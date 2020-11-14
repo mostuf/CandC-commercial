@@ -64,5 +64,13 @@
         {
             $this->view("team");
         }
+        public function Pricing()
+        {
+            $this->view("tarif");
+        }
+        public function Features()
+        {
+            $this->view("features");
+        }
        
     }

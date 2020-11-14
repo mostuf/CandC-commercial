@@ -26,7 +26,7 @@
                         <a class="nav-link" href="/Equipe">Équipe</a>
                     </li>
                     <li class="nav-item mr-5">
-                        <a class="nav-link" href="/Fontionnalités">Fonctionnalités</a>
+                        <a class="nav-link" href="/Fonctionnalités">Fonctionnalités</a>
                     </li>
                     <li class="nav-item mr-5">
                         <a class="nav-link" href="/Tutoriels">Tutoriels</a>

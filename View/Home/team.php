@@ -23,7 +23,7 @@
             <h1 class="text-center teamTitle">Maestrati François</h1><hr/>
               <p class="teamText">entrepreneur dynamique, je m’appelle François et je vis à Nice j'ai 33 ans. 
                     Je suis développeur fullstack, j'ai 33 ans.
-                Passioné d'imformatique  depuis toujours, je suis issue d'une formation Bac +3
+                Passionné d'imformatique  depuis toujours, je suis issue d'une formation Bac +3
                 en développement web.
                 Je suis aussi formateur pour différents centres de formation.
             </p>   

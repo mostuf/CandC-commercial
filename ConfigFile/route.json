@@ -26,6 +26,32 @@
         "Manager": ""
     },
     {
+        "Title": "Tarif",
+        "Path": "/Tarifs",
+        "Method": "GET",
+        "Controller": "Home",
+        "Action": "Pricing",
+        "RouteParam": "",
+        "Param": "",
+        "Auth": "",
+        "container": "fluid",
+        "Ajax": false,
+        "Manager": ""
+    },
+    {
+        "Title": "Fonctionnalités",
+        "Path": "/Fonctionnalités",
+        "Method": "GET",
+        "Controller": "Home",
+        "Action": "Features",
+        "RouteParam": "",
+        "Param": "",
+        "Auth": "",
+        "container": "fluid",
+        "Ajax": false,
+        "Manager": ""
+    },
+    {
         "Title": "Accueil",
         "Path": "/index.php",
         "Method": "GET",

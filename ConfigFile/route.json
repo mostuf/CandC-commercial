@@ -40,7 +40,7 @@
     },
     {
         "Title": "Fonctionnalités",
-        "Path": "/Fonctionnalités",
+        "Path": "/Fonctionnalites",
         "Method": "GET",
         "Controller": "Home",
         "Action": "Features",

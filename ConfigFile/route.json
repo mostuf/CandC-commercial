@@ -16,7 +16,7 @@
         "Title": "Accueil",
         "Path": "/Equipe",
         "Method": "GET",
-        "Controller": "Team",
+        "Controller": "Home",
         "Action": "Team",
         "RouteParam": "",
         "Param": "",

@@ -59,5 +59,10 @@
         {
             
         }
+
+        public function Team()
+        {
+            $this->view("team");
+        }
        
     }

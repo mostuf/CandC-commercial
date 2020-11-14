@@ -1,0 +1,89 @@
+.modal-footer .row{
+    width: 100%;
+}
+
+.fa-check{
+    color: #69f0ae;
+    margin-right: 5px;
+}
+
+.account-card{
+    border-radius: 8px;
+    min-height: 500px;
+    margin-top: 15px;
+}
+
+.account-card ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.account-card ul li{
+    padding: 4px;
+}
+
+.account-card .title{
+    width: 100%;
+    background-color: #1565c0;
+    font-size:22px;
+    text-align: center;
+    border-radius: 8px 8px 0px 0px;
+    height: 10%;
+    padding-top: 10px;
+}
+
+.account-card.disabled .title{
+    background-color: #606060;
+}
+
+.account-card:not(.disabled){
+    cursor: pointer;
+}
+
+.account-card .content{
+    background-color: #404040;
+    padding: 15px;
+    height: 80%;
+}
+
+.account-card .footer{
+    width: 100%;
+    font-size:22px;
+    background-color: #1565c0;
+    text-align: center;
+    border-radius: 0px 0px 8px 8px;
+    height: 10%;
+    padding-top: 10px;
+}
+
+.account-card .footer .cent{
+    font-size: 16px;
+}
+
+.alert-dark{
+    background-color: #404040;
+    margin: 20px 15px 20px 15px;
+    font-size: 14px;
+    padding: 5px;
+    flex: unset;
+}
+
+input[type=radio][name=account-type]{
+    display: none;
+}
+
+.account-card.checked .title{
+    background-color: #44BB44;
+}
+.account-card.checked .content{
+    background-color: #606060;
+}
+.account-card.checked .footer{
+    background-color: #44BB44;
+}
+
+#registerForFreeModal{
+    max-width: 800px;
+    margin-left: calc((100vw - 800px) /2);
+}

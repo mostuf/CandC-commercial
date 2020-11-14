@@ -19,7 +19,7 @@
         "Component"
     ],
     "environnement": "dev",
-    "basePath": "http://dev.click-n-collect.fr",
+    "basePath": "https://www.click-n-collect.site",
     "bundle": [
         {
             "Name": "Common",
@@ -36,7 +36,7 @@
     ],
     "dbSource": {
         "name": "click-n-collect",
-        "dbname": "CandC",
+        "dbname": "CandC-commercial",
         "host": "localhost",
         "user": "root",
         "password": "",

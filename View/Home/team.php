@@ -1,7 +1,7 @@
 <div class="block block-light ">
     <div class="row">
         <div class="col-4">
-                 <img src="/img/av.png" class="teamPict  mr-5" alt="Aurélien VAAST">
+                 <img src="/Img/av.png" class="teamPict  mr-5" alt="Aurélien VAAST">
         </div>
         <div class="col-8">
             <h1 class="text-center">Aurélien VAAST</h1><hr/>
@@ -29,7 +29,7 @@
             </p>   
         </div>
         <div class="col-4">
-            <img src="/img/fm.jpg" class="teampict ml-5" alt="Maestrati François">
+            <img src="/Img/fm.jpg" class="teampict ml-5" alt="Maestrati François">
         </div>
     </div>
 </div>

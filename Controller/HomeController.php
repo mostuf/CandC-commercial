@@ -68,6 +68,10 @@
         {
             $this->view("tarif");
         }
+        public function Tutoriels()
+        {
+            $this->view("tutoriels");
+        }
        
        
     }

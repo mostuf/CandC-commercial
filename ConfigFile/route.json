@@ -39,6 +39,19 @@
         "Manager": ""
     },
     {
+        "Title": "Tutoriels",
+        "Path": "/Tutoriels",
+        "Method": "GET",
+        "Controller": "Home",
+        "Action": "Tutoriels",
+        "RouteParam": "",
+        "Param": "",
+        "Auth": "",
+        "container": "fluid",
+        "Ajax": false,
+        "Manager": ""
+    },
+    {
         "Title": "Accueil",
         "Path": "/index.php",
         "Method": "GET",

@@ -1,11 +1,11 @@
 <div class="block block-light ">
     <div class="row">
         <div class="col-4">
-                 <img src="/Img/av.png" class="teamPict  mr-5" alt="Aurélien VAAST">
+                 <img  src="/Img/av.png" class="teamPict d-block" alt="Aurélien VAAST">
         </div>
         <div class="col-8">
-            <h1 class="text-center  text-justify">Aurélien VAAST</h1><hr/>
-            <p class="">Je m'appelle Aurélien VAAST, j'ai 33 ans.
+            <h1 class="text-center ">Aurélien VAAST</h1><hr/>
+            <p class="mt-3 text-justify">Je m'appelle Aurélien VAAST, j'ai 33 ans.
                 J'ai obtenu un diplome Bac +5 en ingénierie logicielle, et celà fait maintenant une dizaine
                 d'années que je travaille en
                 ESN pour différents clients, pincipalement du secteur banques et assurances et de l'industrie.
@@ -21,7 +21,7 @@
     <div class="row">
         <div class="col-8">
             <h1 class="text-center teamTitle">Maestrati François</h1><hr/>
-              <p class="teamText text-justify">entrepreneur dynamique, je m’appelle François et je vis à Nice j'ai 33 ans. 
+              <p class="mt-3 text-justify">entrepreneur dynamique, je m’appelle François et je vis à Nice j'ai 33 ans. 
                     Je suis développeur fullstack, j'ai 33 ans.
                 Passionné d'imformatique  depuis toujours, je suis issue d'une formation Bac +3
                 en développement web.

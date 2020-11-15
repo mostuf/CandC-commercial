@@ -23,27 +23,27 @@
 <div class="block block-dark">
     <div class="row">
         <div class="col-12">
-            <h2 class="text-center">Les fonctionnalités</h2>
+            <h2 class="text-center bigTitle">Les fonctionnalités</h2>
         </div>
     </div>
     <div class="row">
         <div class="col-4">
             <div class="text-center">
             <i class="fas fa-calendar-alt fa-5x mx-auto d-block"></i>
-            <h3>Système de créneaux réservation</h3>
+            <h3 class="mt-4 mb-4">Système de créneaux réservation</h3>
             </div>
-            <p class="">
+            <p class="text-justify">
                 Notre système  de gestion de créneaux vous permet de définir plusieurs 
                 paramètres comme les horaires d’ouverture par jour, la durée d’un créneaux 
-                et le nombre de réservation possible par crénaux
+                et le nombre de réservation possible par crénaux.
             </p>
         </div>
         <div class="col-4">
             <div class="text-center">
                  <i class="fas fa-boxes fa-5x"></i>
-                 <h3>Composants personalisables</h3>
+                 <h3 class="mt-4 mb-4">Composants personalisables</h3>
             </div>
-            <p class="">
+            <p class="text-justify">
                 Grâce à notre système de composants personnalisables vous pourrez changer 
                 l’apparence de vos pages en pilotant tout cela via votre système d’administration.
             </p>
@@ -51,9 +51,9 @@
         <div class="col-4">
             <div class="text-center">
                    <i class="fas fa-th-list fa-5x"></i>
-                   <h3>Gestion des produits/catégories</h3>
+                   <h3 class="mt-4 mb-4">Gestion des produits/catégories</h3>
             </div>
-            <p>
+            <p class="text-justify">
                 Notre système de gestion de catégories/Produits vous permet 
                 de créer autant de de catégories,sous catégories et produits que 
                 votre offre vous le permet.
@@ -65,28 +65,28 @@
         <div class="col-4">
             <div class="text-center">
                 <i class="fas fa-user-cog fa-5x"></i>
-                <h3>Administration facile</h3>
+                <h3 class="mt-4 mb-4">Administration facile</h3>
             </div>
-             <p>L’interface d’administration se veut simple et intuitive à appréhender.
+             <p class="text-justify">L’interface d’administration se veut simple et intuitive à appréhender.
                 Gérer votre boutique n’a jamais été aussi facile. 
             </p>
         </div>
         <div class="col-4">
             <div class="text-center">
                 <i class="fab fa-searchengin fa-5x"></i>
-                <h3>recherches puissantes</h3>
+                <h3 class="mt-4 mb-2">recherches puissantes</h3>
             </div>
-            <p>Notre système de recherche puissantes vous permet de retrouver facilement vos 
+            <p class="text-justify">Notre système de recherche puissantes vous permet de retrouver facilement vos 
             produits via le nom, la catégorie, la description et l'ordre prix. A noter que 
-            vos clients profitent de cette technologie pour trouver rapidement vos produits
+            vos clients profitent de cette technologie pour trouver rapidement vos produits.
             </p>
         </div>
         <div class="col-4">
             <div class="text-center">
                 <i class="fas fa-store-alt fa-5x"></i>
-                <h3>vitrine </h3>
+                <h3 class="mt-4 mb-4">Page vitrine</h3>
             </div>
-           <p>Vous bénéficiez d’un espace vitrine qui vous permet de 
+           <p class="text-justify">Vous bénéficiez d’un espace vitrine qui vous permet de 
             présenter votre entreprise mais aussi  mettre en avant des produits
             </p>
         </div>

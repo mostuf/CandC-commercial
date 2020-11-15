@@ -134,6 +134,10 @@
     margin-top: 25px;
     margin-bottom:25px;
 }
+.bigTitle{
+    margin-bottom:7%;
+    font-size:50px;
+}
 
 @media screen and (max-width: 992px){
     .min-text{

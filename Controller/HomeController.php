@@ -68,9 +68,6 @@
         {
             $this->view("tarif");
         }
-        public function Features()
-        {
-            $this->view("features");
-        }
+       
        
     }

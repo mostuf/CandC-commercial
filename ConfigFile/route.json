@@ -39,19 +39,6 @@
         "Manager": ""
     },
     {
-        "Title": "Fonctionnalités",
-        "Path": "/Fonctionnalites",
-        "Method": "GET",
-        "Controller": "Home",
-        "Action": "Features",
-        "RouteParam": "",
-        "Param": "",
-        "Auth": "",
-        "container": "fluid",
-        "Ajax": false,
-        "Manager": ""
-    },
-    {
         "Title": "Accueil",
         "Path": "/index.php",
         "Method": "GET",
